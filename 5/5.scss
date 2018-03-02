@@ -1,0 +1,192 @@
+html {
+    font-size: 10px;
+}
+
+div,
+p,
+ul,
+li,
+img,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin ty($a) {
+    width: $a;
+    display: flex;
+    box-sizing: border-box;
+}
+
+@mixin typ() {
+    margin: 0;
+    padding: 0;
+}
+
+.b-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem 0.5rem;
+    background: #fff;
+    p {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    span {
+        font-size: 1.8rem;
+        color: #999999;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+            font-size: 1rem;
+            color: #999999;
+        }
+    }
+}
+
+.b-cont {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 5rem;
+    background: #202020;
+    img {
+        width: 100%;
+    }
+    .cont-qiu {
+        @include ty(100%);
+        justify-content: center;
+        margin-top: 1.6rem;
+        .qiu {
+            box-sizing: border-box;
+            width: 2rem;
+            height: 2rem;
+            border: 0.15rem solid #38ca94;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .xiaoqiu {
+                box-sizing: border-box;
+                width: 1.2rem;
+                height: 1.2rem;
+                background: #38ca94;
+                border-radius: 50%;
+            }
+        }
+        .xian {
+            width: 3.5rem;
+            margin-top: 0.9rem;
+            height: 0.2rem;
+            background: #38ca94;
+        }
+    }
+    .qiu-zi {
+        @include ty(100%);
+        margin-top: 0.2rem;
+        justify-content: space-around;
+        span {
+            color: #38ca94;
+            font-size: 1.2rem;
+        }
+    }
+    .zhushi {
+        @include ty(100%);
+        justify-content: center;
+        p {
+            margin: 1.5rem 0;
+            width: 90%;
+            font-size: 1.6rem;
+            color: white;
+            line-height: 2.6rem;
+        }
+    }
+}
+
+.fenge {
+    width: 100%;
+    height: 1.6rem;
+    background: #f4f4f4;
+}
+
+.jieshao {
+    @include ty(100%);
+    justify-content: center;
+    p {
+        margin: 1.5rem 0;
+        width: 88%;
+        font-size: 1.4rem;
+        line-height: 2.6rem;
+        text-indent: 2rem;
+    }
+}
+
+.box-5-bot {
+    padding: 1rem 0;
+    box-sizing: border-box;
+    position: relative;
+    p {
+        @include ty(100%);
+        margin: 0;
+    }
+    .bot-p1 {
+        justify-content: center;
+        font-size: 1.4rem;
+        span {
+            margin-right: .3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 2rem;
+            width: 2rem;
+            box-sizing: border-box;
+            padding: .2rem;
+            font-size: 1.2rem;
+            border: .1rem solid #38ca94;
+            color: #38ca94;
+            border-radius: 50%;
+        }
+    }
+    .bot-p2 {
+        justify-content: space-around;
+        font-size: 1.4rem;
+        margin: 1rem 0;
+    }
+    .bot-p3 {
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .anniu {
+        @include ty(100%);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 4rem;
+        background: rgba(254, 106, 115, 0.8);
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        span {
+            font-size: 2.6rem;
+            margin-right: 0.5rem;
+        }
+        p {
+            width: 35%;
+            font-size: 1.8rem;
+            margin: 0
+        }
+    }
+    .goup {
+        font-size: 5rem;
+        color: #999;
+        font-weight: lighter;
+        position: absolute;
+        top: -2rem;
+        right: 1rem;
+    }
+}
