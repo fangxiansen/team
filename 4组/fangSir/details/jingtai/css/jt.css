@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.shang {
+  width: 100%;
+}
+
+.shang img {
+  width: 100%;
+}
+
+.tw {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 26px;
+  border-bottom: 10px solid #F4F4F4;
+}
+
+.tw div {
+  width: 25%;
+  text-align: center;
+  margin: 0.3rem 0;
+}
+
+.tw div p {
+  padding: 0.5rem 0;
+  font-size: 14px;
+}
+
+.tw div img {
+  width: 70%;
+}
+
+.hang {
+  width: 100%;
+}
+
+.hang div {
+  margin: 0 auto;
+  width: 95%;
+  border-left: 3px solid greenyellow;
+  display: flex;
+  padding: 0.4rem 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hang div > p:nth-of-type(1) {
+  width: 25%;
+  font-size: 20px;
+  margin-left: 6px;
+}
+
+.hang div > p:nth-of-type(2) {
+  width: 70%;
+  font-size: 12px;
+  color: gray;
+}
+
+.tu {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.tu img {
+  width: 100%;
+  padding: 15px 0 25px 0;
+}
+
+.xtw {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border-bottom: 10px solid #F4F4F4;
+}
+
+.xtw div {
+  width: 33%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.xtw div img {
+  width: 10%;
+}
+
+.kuang {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 10px solid whitesmoke;
+}
+
+.kuang div {
+  width: 80%;
+  height: 35px;
+  border: 1px solid gainsboro;
+  margin: 0.5rem 0;
+  line-height: 35px;
+  border-radius: 10rem;
+}
+
+.kuang div input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  margin-left: 20px;
+}
+
+.kuang > div:nth-of-type(4) {
+  background: orange;
+}
+
+.kuang > div:nth-of-type(4) p {
+  margin-left: 20px;
+}
+
+.rw {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rw div {
+  width: 22%;
+  text-align: center;
+}
+
+.rw div img {
+  width: 100%;
+}
+
+.rw div p {
+  font-size: 20px;
+  margin: 0.5rem 0;
+}
+
+.rw div span {
+  padding: 0 1rem;
+  background: #39C893;
+  color: white;
+}
+
+.lia {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.lia div {
+  width: 45%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lia div p {
+  color: #39C893;
+  font-size: 12px;
+}
+
+.lia div img {
+  width: 10%;
+  height: 20px;
+}
+
+.dt {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.dt img {
+  width: 100%;
+}
+
+.si {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.si div {
+  width: 50%;
+}
+
+.si div img {
+  width: 100%;
+}
+
+.tt {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.tt img {
+  width: 100%;
+}
+
+.tt span {
+  background: #39C893;
+  margin-left: 20px;
+  color: white;
+  padding: 0 0.5rem;
+}
+
+.hd {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hd .he {
+  width: 95%;
+  display: flex;
+  padding: 1rem 0;
+}
+
+.hd .he > div:nth-of-type(1) {
+  width: 40%;
+}
+
+.hd .he > div:nth-of-type(1) img {
+  width: 90%;
+}
+
+.hd .he > div:nth-of-type(2) {
+  width: 70%;
+}
+
+.hd .he > div:nth-of-type(2) p {
+  padding: 0.3rem 0;
+  font-size: 18px;
+}
+
+.hd .he > div:nth-of-type(2) p span {
+  color: gray;
+  font-size: 14px;
+}
+
+.hd .he > div:nth-of-type(2) img {
+  width: 10%;
+  margin-left: 20px;
+}
+
+.weibo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.weibo p {
+  width: 95%;
+}
+
+.fw {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.fw img {
+  width: 10%;
+}
+
+.fw p {
+  margin-left: 10px;
+}
+
+.yes {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.yes p {
+  width: 25%;
+}

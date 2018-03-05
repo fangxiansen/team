@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.head{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+    li{
+        width: 33%;text-align: center;font-size: 3.3rem;
+    }
+    li:nth-of-type(3){
+        text-align: end;
+        img{
+            margin-left: 4rem;
+        }
+    }
+    img{
+        height: 8rem;
+    }
+}
+.bo{
+    width: 100%;
+    height:19rem;
+    background: #f4f4f4; 
+}
+.box{
+    width: 100%;
+    height: 14rem;
+    background: white;
+}
+.box_a{
+    width: 100%;
+    height: 14rem;
+    display: flex; 
+    align-items: center  
+ 
+}
+.box_a1{
+    width:45%;
+    height: 100%;
+}
+.box_a1 img{
+    width: 100%;
+    height: 100%;
+}
+.box_a2{
+   width: 55%;
+   height: 100%;
+       line-height: 3.5rem;
+    h4{
+        font-size:3rem;
+    }
+    p{
+        font-size: 2rem;
+        color: #AEAEAE;
+    }
+    span{
+        color: #FD4B55;
+    }
+    }
+    .box_a3{
+        width: 100%;
+        background: white;
+        span{
+            font-size: 2rem;
+        }
+        p{
+            font-size:2rem;
+        }
+    }
+    .box_a4{
+        width: 100%;
+        height: 5rem;
+        border: 1px solid #F0F0F0; 
+        ul{
+            width: 100%;
+            display: flex;
+            li{
+                width: 25%;
+                text-align: center;
+                line-height: 5rem;
+                font-size: 2.8rem;
+            }
+        }
+
+    }
+    .box_a4 ul li:hover{
+        border-bottom: 0.4rem solid #49CC9A;
+    }
+    .box_a5{
+        width: 100%;
+        height: 7rem;
+        ul{
+            width: 100%;
+            height:7rem;
+            display: flex; 
+            align-items: center;
+            justify-content:space-around;
+            li{
+                width: 15%;
+                height: 3rem;
+                text-align: center;
+                line-height: 3rem;
+               border: 1px solid #49CC9A;
+               border-radius:3rem;
+               color: #49CC9A;
+               font-size:2rem;
+            }
+        }
+    }
+.boa{
+    width: 27% !important;
+}
+.box_a5 ul li:hover{
+background: #49CC9A;
+color: white;
+}
+.box_b{
+    width: 100%;
+    height: 3rem;
+    border-left: none !important;
+    border-right: none !important;
+    border: 1px solid #EEEEEE;
+    font-size: 2rem;
+    tr{
+        width: 100%;
+        height: 3rem;
+    }
+    td{
+        text-indent:2rem;
+        border-right: 1px solid  #EEEEEE;
+    }
+    tr td:nth-child(1){
+        width: 20rem;
+    }
+    tr td:nth-child(2){
+        width: 15rem;
+    }
+    tr:nth-child(1){
+        color: #59D1A5;
+    }
+}
+.box_c{
+    width:100%;
+    height: 25rem;
+    background: #F4F4F4;
+    font-size: 2.5rem;
+    text-indent: 5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 3.6rem;
+}
+.box_c1{
+    width: 100%;
+    height: 20rem;
+    background: white;
+    line-height: 5rem;
+}
+.box_d{
+    width: 100%;
+    height: 20rem;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    div {
+        width: 100%;
+        height:33%;
+        text-align:center;
+        line-height: 6rem;
+    }
+    .div {
+        width: 100%;
+        height:33%;
+        color:#4FCF9F; 
+        font-size: 2.5rem;
+        text-align:center;
+        line-height: 6rem;
+        span{
+            color: #000000;
+        }
+    }
+    ul{
+        width: 100%;
+        height: 33%;
+        display: flex;
+        align-items: center;
+        border-bottom: 0.1rem solid #F9F9F9;
+        li{
+            width: 25%;
+            text-align: center;
+           
+
+        }
+    }
+}
+.box_d ul li:hover{
+color: #47CC9B;
+}
+.box_e{
+    width: 100%;
+    height: 8rem;
+    // background: #FC6871;
+    background:rgba($color: #FC6871, $alpha: 0.9) ;
+    z-index:999;
+     font-size: 3rem !important;
+    text-align: center;
+    line-height: 8rem;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    
+}

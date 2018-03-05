@@ -1,0 +1,27 @@
+<ul class="head">
+			<li><img src="img/logo.png"/></li>
+			<li>π§µÿ÷±≤•</li>
+			<li><a href="#"><img src="img/head1.png"/></a><a href="#"><img src="img/hrad2.png"/></a></li>
+		</ul>
+
+
+.head{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+    li{
+        width: 33%;text-align: center;font-size: 3.3rem;
+    }
+    li:nth-of-type(3){
+        text-align: end;
+        img{
+            margin-left: 4rem;
+        }
+    }
+    img{
+        height: 8rem;
+    }
+}

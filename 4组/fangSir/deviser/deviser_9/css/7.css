@@ -1,0 +1,172 @@
+body, html {
+  width: 100%;
+  background: #f4f4f4; }
+
+.head {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 0 1rem;
+  align-items: center;
+  border-bottom: 1px solid #f4f4f4; }
+  .head li {
+    width: 33%;
+    text-align: center;
+    font-size: 3.3rem; }
+  .head li:nth-of-type(3) {
+    text-align: end; }
+    .head li:nth-of-type(3) img {
+      margin-left: 4rem; }
+  .head img {
+    height: 8rem; }
+
+.nav {
+  display: flex;
+  width: 100%;
+  padding: 2.5rem 0;
+  background: white;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 2rem; }
+  .nav li {
+    width: 25%;
+    font-size: 3.5rem;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .nav li img {
+      width: 2.5rem;
+      margin-left: 2rem; }
+  .nav li:nth-of-type(4) img {
+    width: 5rem;
+    margin: 0; }
+
+.content {
+  width: 100%;
+  background: white; }
+  .content li {
+    display: flex;
+    padding: 3.5rem 2rem;
+    border-bottom: 1px solid #f4f4f4; }
+    .content li img {
+      width: 16rem;
+      height: 16rem; }
+    .content li div {
+      flex-grow: 1;
+      margin-left: 2.2rem; }
+      .content li div ul {
+        display: flex; }
+        .content li div ul li {
+          padding: 0;
+          border: none;
+          display: flex;
+          align-items: center; }
+      .content li div ul:nth-of-type(1) {
+        justify-content: space-between; }
+        .content li div ul:nth-of-type(1) li:nth-of-type(1) {
+          font-size: 3.6rem; }
+          .content li div ul:nth-of-type(1) li:nth-of-type(1) span {
+            font-size: 2.4rem;
+            margin-left: 2.2rem;
+            color: #fff;
+            border-radius: 8px;
+            padding: 0 0.5rem;
+            background: #3ac994; }
+        .content li div ul:nth-of-type(1) li:nth-of-type(2) {
+          font-size: 2.6rem;
+          color: #999; }
+          .content li div ul:nth-of-type(1) li:nth-of-type(2) span {
+            color: #FEB505; }
+      .content li div ul:nth-of-type(2) {
+        margin: 1rem 0 0.5rem 0;
+        font-size: 2.8rem;
+        color: #333; }
+        .content li div ul:nth-of-type(2) li {
+          margin-right: 5rem; }
+          .content li div ul:nth-of-type(2) li span {
+            color: #999; }
+        .content li div ul:nth-of-type(2) li:nth-of-type(3) {
+          margin-right: 0; }
+      .content li div p {
+        font-size: 2.8rem;
+        color: #333; }
+        .content li div p span {
+          color: #999999; }
+
+.ye {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem 2rem;
+  background: white; }
+  .ye li {
+    width: 33.3%;
+    font-size: 3rem;
+    text-align: center;
+    height: 8rem;
+    line-height: 8rem;
+    border: none; }
+  .ye li:nth-of-type(1) {
+    background: #eaeaea; }
+    .ye li:nth-of-type(1) a {
+      color: black; }
+  .ye li:nth-of-type(2) {
+    background: white;
+    border-bottom: 1px solid #f4f4f4;
+    border-top: 1px solid #f4f4f4;
+    box-sizing: border-box; }
+  .ye li:nth-of-type(3) {
+    background: #3bc893; }
+    .ye li:nth-of-type(3) a {
+      color: white; }
+
+.text {
+  margin: 1.5rem 0;
+  background: white;
+  padding: 2rem;
+  font-size: 2.8rem;
+  color: #333; }
+
+.phone {
+  justify-content: center;
+  font-size: 2.8rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  padding: 3.5rem 0;
+  background: white; }
+  .phone img {
+    width: 3.3rem;
+    height: 3.3rem;
+    margin-right: 1rem; }
+
+.footnav {
+  display: flex;
+  background: white; }
+  .footnav li {
+    width: 25%;
+    text-align: center;
+    font-size: 2.8rem; }
+    .footnav li a {
+      color: #999; }
+  .footnav li:nth-of-type(1) a {
+    color: #3bc893; }
+
+.foot {
+  text-align: center;
+  font-size: 2.5rem;
+  background: white;
+  padding: 3.5rem 0;
+  color: #999; }
+
+.go {
+  position: fixed;
+  right: 0;
+  opacity: 0.8;
+  bottom: 23rem;
+  width: 9rem;
+  height: 9rem; }
+  .go img {
+    width: 100%;
+    border-radius: 50%; }
+
+/*# sourceMappingURL=7.css.map */

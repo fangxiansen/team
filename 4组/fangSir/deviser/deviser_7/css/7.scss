@@ -1,0 +1,210 @@
+body,html{
+    width: 100%;
+    background: rgb(244,244,244);
+}
+.head{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+    li{
+        width: 33%;text-align: center;font-size: 3.3rem;
+    }
+    li:nth-of-type(3){
+        text-align: end;
+        img{
+            margin-left: 4rem;
+        }
+    }
+    img{
+        height: 8rem;
+    }
+}
+.nav{
+    display: flex;
+    width: 100%;
+    padding: 2.5rem 0;
+    background: white;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 2rem;
+    li{
+        width: 25%;
+        font-size: 3.5rem;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 2.5rem;
+            margin-left: 2rem;
+        }
+    }
+    li:nth-of-type(4){
+        img{
+            width: 5rem;
+            margin: 0;
+        }
+    }
+}
+.content{
+    width: 100%;
+    
+    background: white;
+    li{
+        display: flex;
+        padding: 3.5rem 2rem;
+        border-bottom: 1px solid #f4f4f4;
+        img{
+            width: 16rem;
+            height: 16rem;
+        }
+        div{
+             flex-grow: 1;
+             margin-left: 2.2rem;
+            ul{
+                display: flex;
+                li{
+                    padding: 0;
+                    border: none;
+                    display: flex;align-items: center;
+                }
+            }
+            ul:nth-of-type(1){
+                justify-content: space-between;
+                li:nth-of-type(1){
+                    font-size: 3.6rem;
+                    span{
+                        font-size: 2.4rem;
+                        margin-left: 2.2rem;
+                        color: #fff;
+                        border-radius: 8px;
+                        padding: 0 0.5rem;
+                        background:rgb(58,201,148);
+                    }
+                }
+                li:nth-of-type(2){
+                    font-size: 2.6rem;
+                    color: #999;
+                    span{
+                        color: #FEB505;
+                    }
+                }
+            }
+            ul:nth-of-type(2){
+                margin: 1rem 0 0.5rem 0;
+                font-size: 2.8rem;
+                color: #333;
+                li{
+                    margin-right: 5rem;
+                    span{
+                        color: #999;
+                    }
+                }
+                li:nth-of-type(3){
+                    margin-right: 0;
+                }
+            }
+            p{
+                font-size: 2.8rem;
+                color: #333;
+                span{
+                    color: #999999;
+                    
+                }
+            }
+        }
+    }
+    
+}
+.ye{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5rem 2rem;
+    background: white;
+    li{
+        width: 33.3%;
+        font-size: 3rem;
+        text-align: center;
+        height: 8rem;
+        line-height: 8rem;
+        border: none;
+    }
+    li:nth-of-type(1){
+        background: #eaeaea;
+        a{
+            color: black;
+        }
+    }
+    li:nth-of-type(2){
+        background: white;
+        border-bottom:  1px solid #f4f4f4;
+        border-top:  1px solid #f4f4f4;
+        box-sizing: border-box;
+    }
+    li:nth-of-type(3){
+        background: rgb(59,200,147);
+        a{
+            color: white;
+        }
+    }
+}
+.text{
+    margin: 1.5rem 0;
+    background: white;
+    padding: 2rem;
+    font-size: 2.8rem;
+    color: #333;
+}
+.phone{
+    justify-content: center;
+    font-size: 2.8rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 3.5rem 0;
+    background: white;
+    img{
+        width: 3.3rem;
+        height: 3.3rem;
+        margin-right: 1rem;
+    }
+}
+.footnav{
+    display: flex;
+    background: white;
+    li{
+        width: 25%;
+        text-align: center;
+        font-size: 2.8rem;
+        a{
+            color: #999;
+        }
+        
+    }
+    li:nth-of-type(1){
+        a{
+            color: rgb(59,200,147);
+        } 
+    }
+}
+.foot{
+    text-align: center;
+    font-size: 2.5rem;
+    background: white;
+    padding: 3.5rem 0;
+    color: #999;
+}
+.go{
+    position: fixed;
+    right: 0;
+    
+    opacity: 0.8;
+    bottom: 23rem;
+    width: 9rem;
+    height: 9rem;
+    img{
+        width: 100%;border-radius: 50%;
+    }
+}
