@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "microsoft yahei"; }
+
+html, body {
+  background: #f4f4f4; }
+
+nav {
+  background: #f4f4f4; }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    nav ul li {
+      width: 47.5%;
+      text-align: center;
+      margin-top: 0.7rem;
+      background: white;
+      padding-bottom: 0.5rem; }
+      nav ul li img {
+        width: 100%; }
+      nav ul li p {
+        font-size: 1.3rem;
+        margin: 0.5rem 0; }
+      nav ul li span {
+        font-size: 1.1rem;
+        color: #999; }
+
+/*# sourceMappingURL=Xiaog.css.map */

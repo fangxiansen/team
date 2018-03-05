@@ -1,0 +1,31 @@
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    font-family: "microsoft yahei";
+}
+nav{
+    background: rgb(244,244,244);
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li{
+            width: 47.5%;
+            text-align: center;
+            margin-top: 0.5rem;
+            img{
+                width: 100%;
+            }
+            p{
+                font-size: 1.3rem;
+                margin: 0.5rem 0;
+            }
+            span{
+                font-size: 1.1rem;
+                color: #999;
+            }
+        }
+    }
+}

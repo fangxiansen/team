@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  height: 4rem;
+  border-bottom: 0.1rem solid #F1F1F1;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+
+.header .header_a {
+  width: 30%;
+}
+
+.header .header_a img {
+  width: 100%;
+  height: 100%;
+}
+
+.header .header_b {
+  width: 30%;
+  line-height: 4rem;
+  margin-left: 1rem;
+}
+
+.header .header_b p {
+  font-size: 2rem;
+}
+
+.header .header_c {
+  width: 23%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.3rem 0;
+}
+
+.header .header_c i {
+  font-size: 1.8rem;
+  color: #9D9D9D;
+}
+
+.header .header_c p {
+  font-size: 1.2rem;
+  color: #9D9D9D;
+}
+
+.header_div {
+  border-bottom: 0.1rem solid #F1F1F1;
+}
+
+.header_div .header_diva {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+
+.header_div .header_diva li {
+  width: 23%;
+  height: 3rem;
+  border-right: 0.01rem solid #9D9D9D;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0.6rem;
+}
+
+.header_div .header_diva li p {
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+.header_div .header_diva li img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0.8rem;
+}
+
+.header_div .header_diva .dv_li img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 0.35rem;
+}
+
+.center {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+.center .center_a {
+  margin-left: 0.8rem;
+}
+
+.center .center_a p {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.center ul {
+  width: 100%;
+  padding: 0.8rem 0;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.center ul li {
+  width: 30%;
+  border: 0.01rem solid #eeeeee;
+  font-size: 1.2rem;
+  background: white;
+  float: left;
+  padding: 0.4rem 0;
+  margin: 0.3rem;
+  font-size: 1.3rem;
+  color: #999;
+}
+
+.er {
+  width: 95%;
+  height: 7rem;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.er .er_a {
+  margin-left: 0.8rem;
+}
+
+.er .er_a p {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.er ul {
+  width: 100%;
+  padding: 0.8rem 0;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.er ul li {
+  width: 30%;
+  background: white;
+  border: 0.01rem solid #eeeeee;
+  font-size: 1.2rem;
+  float: left;
+  padding: 0.4rem 0;
+  margin: 0.3rem;
+  font-size: 1.2rem;
+  color: #999;
+}
+
+.ys {
+  background: #F4F4F4;
+}
+
+.center_san {
+  height: 3.5rem;
+  background: #39C893;
+  text-align: center;
+}
+
+.center_san p {
+  font-size: 2rem;
+  color: white;
+  line-height: 3.5rem;
+}
+
+.footer img {
+  width: 100%;
+  height: 100%;
+}
